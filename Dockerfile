@@ -1,8 +1,8 @@
 FROM openjdk:8-jre
 
-LABEL maintainer="Jaeyoung Chun (jaeyoung.chun@weizmann.ac.il)"
+LABEL maintainer="Jaeyoung Chun (chunj@mskcc.org)"
 
-ENV FASTQC_VERSION 0.11.7
+ENV FASTQC_VERSION 0.11.8
 
 RUN apt-get update \
     && apt-get install --yes unzip perl
