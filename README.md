@@ -3,7 +3,7 @@
 Dockerized FastQC: A high throughput sequence QC analysis tool
 
 ```bash
-$ docker run -it --rm fastqc:0.11.8
+$ docker run -it --rm fastqc:0.11.9
 
             FastQC - A high throughput sequence QC analysis tool
 
