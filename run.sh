@@ -1,5 +1,7 @@
 #!/bin/bash
 
+source config.sh
+
 usage()
 {
 cat << EOF
@@ -42,6 +44,6 @@ do
     docker run -it --rm \
         -v "${file}":${file} \
         -v "${path_out}":/data \
-        fastqc -o /data ${file}
+        ${image_name}:${version} -o /data ${file}
 
 done
