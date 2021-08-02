@@ -14,7 +14,7 @@ $ docker run -it --rm fastqc:0.11.9
 ## Build Container Image
 
 ```bash
-./bulid.sh
+./build.sh
 ```
 
 ## Push to Docker Registry
