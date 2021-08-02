@@ -134,4 +134,4 @@ BUGS
 
 ## Push to Docker Registry
 
-Either you can use the `docker push` command or run `push.sh` (requires `scing`)
+Either you can use the `docker push` command or run `push.sh` (requires [scing](https://github.com/hisplan/scing))
