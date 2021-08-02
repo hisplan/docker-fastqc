@@ -125,3 +125,13 @@ BUGS
     Any bugs in fastqc should be reported either to simon.andrews@babraham.ac.uk
     or in www.bioinformatics.babraham.ac.uk/bugzilla/
 ```
+
+## Build Container Image
+
+```bash
+./bulid.sh
+```
+
+## Push to Docker Registry
+
+Either you can use the `docker push` command or run `push.sh` (requires `scing`)
