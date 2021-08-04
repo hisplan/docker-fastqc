@@ -19,7 +19,7 @@ $ docker run -it --rm fastqc:0.11.9
 
 ## Push to Docker Registry
 
-Either you can use the `docker push` command or run `push.sh` (requires [scing](https://github.com/hisplan/scing)):
+Either you can use the `docker push` command or run `push.sh` (requires [SCING](https://github.com/hisplan/scing)):
 
 ```bash
 ./push.sh
